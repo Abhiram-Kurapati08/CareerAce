@@ -1,0 +1,15 @@
+Based on the provided user details, here is a summary:
+
+1. **Skills:**
+ * Programming languages: Python, Java, C++, HTML, CSS, JavaScript
+ * Machine Learning and Deep Learning expertise
+ * Full Stack Web Development skills
+2. **Experience:**
+ * 2 projects completed:
+ + Soil Moisture Sensor (Feb 2024 – April 2024): Using an 8051 Microcontroller to create a soil moisture sensor
+ + Audio Noise Simulation and Filtering (Feb 2024 - April 2024): Simulating noise in audio signals and applying noise reduction techniques using MATLAB
+3. **Interests:**
+ * Software development
+ * Finance
+4. **Goals:**
+ * To become a Technology Engineer

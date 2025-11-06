@@ -1,0 +1,219 @@
+/* Ensures full height, no gap images */
+.app {
+  background-image: url('./assets/lander.png');
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.logo-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:fit-content;
+  height:fit-content /* Adjust the height as needed */
+}
+
+.full-image {
+  width: 100%;
+  height: 100%;
+  object-fit:fill; /* Ensures proper scaling without distortion */
+  
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures navbar stays on top */
+}
+
+/* Logo styling */
+.logo {
+  background: none;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links */
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+.navLinkStyle {
+  color: rgb(248, 244, 244);
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navLinkStyle:hover {
+  color: #007bff;
+}
+
+/* Signup button */
+.signup-button {
+  font-weight: bold;
+  background: black;
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background 0.3s;
+}
+
+.signup-button:hover {
+  background: #007bff;
+}
+
+/* Content container */
+.content {
+  color: white;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  padding: 5px;
+  max-width: 400px;
+  padding-left: 60px;
+  text-align: left;
+  position: relative;
+
+}
+
+/* Heading text */
+.heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  top: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1; /* Ensures heading is above the images */
+}
+
+/* Chat button */
+.chat-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chat-button:hover {
+  background-color: #0056b3;
+}
+
+/* Feedback button */
+.feedback-button {
+  display: flex;
+  position: relative;
+  opacity: 60%;
+  background: black;
+  color: white;
+  width: auto;
+  max-width: 400px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  z-index: 1; /* Ensures button is above the images */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #121212;
+  color: #fff;
+opacity:75%;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f8f8f8;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #bdbdbd;
+}
+
+.footer-section a {
+  color: #1e90ff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-section a:hover {
+  color: #ffcc00;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social a {
+  margin: 0 10px;
+  font-size: 14px;
+  color: #f8f8f8;
+  text-decoration: none;
+  transition: opacity 0.3s;
+}
+
+.footer-social a:hover {
+  opacity: 0.7;
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #777;
+}

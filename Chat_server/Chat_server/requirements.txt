@@ -1,0 +1,7 @@
+pypdf2
+requests
+langchain_ollama
+langchain_core
+selenium
+flask
+flask-cors
